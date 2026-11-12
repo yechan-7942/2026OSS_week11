@@ -38,5 +38,24 @@ npm run dev
 - `map()`과 `filter()`는 각각 어떤 목적인가요?
 - `course`, `onDelete`, `onToggle` Props는 어디에서 전달되나요?
 - 브라우저 새로고침 시 데이터가 초기화되는 이유는? (DB/localStorage 없음)
+-> 영속성 때문에 
+
+
+
+##  수업시간 필기
+jsx는 브라우저에서 실행 x
+
+브라우저는 html,css,js만 반영 가능
+
+jsx -> javascript -> 브라우저
+
+index -> main -> app -> courseList 
+
+let count = 0;  -> 이렇게 하면 되는 이유: rendering을 할때마다 새로 만들어짐.
+
+어떤 작업을 해서 이 내용을 바꿔야한다고 하면 상태변수화를 해야햠
+
+{}export/
+괄호가 없으면 export default
 
 > 교육 목적의 로컬 State 앱입니다. 서버 API 및 데이터베이스는 사용하지 않습니다.
